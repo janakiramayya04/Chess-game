@@ -1,0 +1,20 @@
+[project]
+name = "chess-game"
+version = "0.1.0"
+description = "Chess game backend using FastAPI"
+authors = [
+    { name = "Janaki Ramayya" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "asyncpg",
+    "pydantic"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
