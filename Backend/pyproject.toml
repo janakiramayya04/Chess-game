@@ -12,7 +12,8 @@ dependencies = [
     "uvicorn[standard]",
     "sqlalchemy",
     "asyncpg",
-    "pydantic"
+    "pydantic",
+    "python-chess>=1.999",
 ]
 
 [build-system]
